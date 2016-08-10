@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+require 'metar'
+require './weather'
+
+Weather.start(ARGV)
