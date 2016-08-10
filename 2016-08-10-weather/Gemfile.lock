@@ -1,6 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (5.0.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.2-java)
+    emoji (1.0.7)
+      json
     i18n (0.7.0)
     json (1.8.3)
     json (1.8.3-java)
@@ -12,16 +21,23 @@ GEM
       m9t (~> 0.3.5)
       rake
       rdoc
+    minitest (5.4.1)
     rake (11.2.2)
     rdoc (4.2.2)
       json (~> 1.4)
     thor (0.19.1)
+    thread_safe (0.3.5)
+    thread_safe (0.3.5-java)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   java
   ruby
 
 DEPENDENCIES
+  activesupport (~> 5.0)
+  emoji
   metar-parser
   thor
 

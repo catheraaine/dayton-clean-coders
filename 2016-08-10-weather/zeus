@@ -2,6 +2,7 @@
 
 require 'thor'
 require 'metar'
+require 'active_support/all'
 require './weather'
 
 Weather.start(ARGV)
